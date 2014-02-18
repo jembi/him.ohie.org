@@ -1,0 +1,266 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %title OpenHIE :: Facility Registry
+    %link{:href => "css/styles.css", :rel => "stylesheet"}
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "js/script.js", :type => "text/javascript"}
+  %body
+    .wrapper
+      .topcontent
+        .logo
+          %img{:src => "images/OpenHIE-logo.png"}/
+        .mission
+          %p Improve Care and Planning with accurate and reliable health facility data across all your applications
+        %a.btn.red.scroll{:href =>"#arrow"}
+          Start Now
+        .blur
+        .description
+          %p The OHIE Facility Registry Community is a free and open initiative comprised of individuals, NGOs, and governments seeking to leverage facility registries to improve health outcomes in resource limited settings. A registry achieves this by providing a focused service to collect, curate, store and distribute standardized and current facility and resource data to the diverse network of eHealth and mHealth systems in a country.
+          %p The Facility Registry Community is equipped to provide field tested, open source, and scalable technology and implementation solutions to create a facility registry using local requirements and industry standards. These are formed out of field experience gained from implementations ongoing in countries such as Rwanda and Tanzania. Engage online with our facility registry community to learn more!
+        .features
+          .item
+            %img{:src => "images/ic-heart.png"}/
+            %p.title Improved Patient Care
+            %p Reliable and accurate information helps you understand and manage your resources so that patients can receive the care they need.
+          .item
+            %img{:src => "images/ic-arrows.png"}/
+            %p.title Reliable Referrals
+            %p Access to reliable up-to-date information about services provided and infrastructure available so you can send your patients to the closest and most reliable facility for their need.
+          .item
+            %img{:src => "images/ic-magnify.png"}/
+            %p.title Better Planning
+            %p Quickly identify gaps in your services and infrastructure by analizing distribution of services and infrastructure needs.
+          .item
+            %img{:src => "images/ic-phone.png"}/
+            %p.title Trustworthy Information
+            %p Easly define and maintain your data from any device, track historical changes so you can always know you have the most up to date, official information.
+        .learnmore#arrow
+          %a.implementor{:href => "#"}
+            I'm an
+            %b Implementor
+          %a.developer{:href => "#"}
+            I'm a
+            %b Developer
+          %span
+          .circle
+            %p Learn more
+        #implementor
+          .pi-guide
+            %h1 Facility Registry Implementation Guide
+            %p As a health leader in your country, it’s important to have solutions that are right for your local context.  We are committed to working closely with you and your teams  to help implement a facility registry.  A prospective implementation guide is available to help begin this process.
+            .carousel
+              %ul#carousel
+                %li
+                  %a{:href => "#"}
+                    .icon
+                      %img{:src => "images/ic-pig01.png"}/
+                      %h4
+                        Identify
+                        %br
+                        Stakeholders
+                        %br
+                        and Motivations
+                    .text
+                      %h4 Identify Stakeholders and Motivations
+                      %p The implementation process begins by first identifying the current stakeholders and motivations driving interest in a health facility registry.  This step is intended to answer the question: “Why do we want a new or different facility registry?”
+                %li
+                  %a{:href => "#"}
+                    .icon
+                      %img{:src => "images/ic-pig02.png"}/
+                      %h4 Document Facility Registry Specifications and User Stories
+                    .text
+                      %h4 Document Facility Registry Specifications and User Stories
+                      %p A facility registry should be responsive to users’ needs and the local context. User stories and data specifications are two ways to describe: “What will the facility registry achieve and How should it operate?”
+                %li
+                  %a{:href => "#"}
+                    .icon
+                      %img{:src => "images/ic-pig03.png"}/
+                      %h4
+                        Carry Out Registry Specifications
+                        %br and Identify Gaps
+                    .text
+                      %h4 Carry Out Registry Specifications and Identify Gaps
+                      %p Using the specifications and user stories, create a viable initial version of the new or improved facility registry and in the process identify remaining gaps and requirements.
+                %li.r
+                  %a{:href => "#"}
+                    .icon
+                      %img{:src => "images/ic-pig04.png"}/
+                      %h4
+                        Iterative
+                        %br
+                        Development
+                        %br
+                        and User Testing
+                    .text
+                      %h4  Iterative Development and User Testing
+                      %p Using an agile and iterative approach has proven successful in the facility registry reference implementations.  When the critical requirements have been completed, the next step can begin but the iterative process should continue.
+                %li.r
+                  %a{:href => "#"}
+                    .icon
+                      %img{:src => "images/ic-pig05.png"}/
+                      %h4  Scale the Registry Implementation
+                    .text
+                      %h4  Scale the Registry Implementation
+                      %p To scale the facility registry, it is important to confirm the roles and responsibilities of stakeholders, train users and completing critical integrations between the facility registry and other systems.
+                %li.r
+                  %a{:href => "#"}
+                    .icon
+                      %img{:src => "images/ic-pig06.png"}/
+                      %h4
+                        Provide
+                        %br Ongoing Support
+                    .text
+                      %h4  Provide Ongoing Support
+                      %p Requirements and requests of the registry will evolve over time.  Ongoing support is required to respond to the ongoing data, developer, integration, operations, and help desk requests from stakeholders.
+            %br
+            %a.gbig{:href => "https://docs.google.com/document/d/1KaUPHQRiZ9hQ59Irp56oKayvVZbkWngTYkl2AZdafhw/edit?usp=sharing", :target => "_blank"}
+              %img{:src => "images/ic-book.png"}/
+              Visit the complete guide
+
+          .community-upcoming
+            .community-list
+              %h1 Community
+              %ul
+                %li
+                  %a{:href => "https://groups.google.com/forum/#!forum/facility-registry", :target => "_blank"}
+                    %img{:src => "images/ic-com1.png"}/
+                    %p
+                      %b Join the discussion group
+                      and ask
+                      %br questions and get feedback
+                %li
+                  %a{:href => "https://wiki.ohie.org/display/SUB/Facility+Registry+Community", :target => "_blank"}
+                    %img{:src => "images/ic-com3.png"}/
+                    %p
+                      %b Meet other implementers
+                      and learn from their
+                      %br experiences in 2x month Google Hangouts
+                %li
+                  %a.developer.scroll{:href =>"#arrow"}
+                    %img{:src => "images/ic-com4.png"}/
+                    %p
+                      %b Engage your technical staff
+                      and find answers
+                      %br to your technical questions
+            .upcoming
+              %h1 Upcoming events
+              %h3 Next week
+              %p.date May 27th 05:00 PM at Bibendum at Purus
+              %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel nunc nulla.
+              %p.date May 29th 11:30 AM at  Lobortis Sagittis
+              %p Aliquam ipsum risus, egestas at dictum nec, porttitor sed nulla. Aenean auctor ligula nec eros mattis sollicitudin. Sed orci eros, luctus a hendrerit in, tincidunt eget lacus.
+              %br
+              %h3 Next month
+              %p.date May 27th 05:00 PM at Bibendum at Purus
+              %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel nunc nulla.
+              %a.gbig{:href => "http://www.google.com/calendar/embed?src=vtvfc8dl9hg9nnhob27t6p8pc0%40group.calendar.google.com&ctz=America/New_York", :target => "_blank"}
+                %img{:src => "images/ic-calendar.png"}/
+                Go to calendar
+          .facility
+            %h1 Facility Registry Common Features
+            %ul
+              %li
+                %img{:src => "images/ic-fac1.png"}/
+                Comunnity
+              %li
+                %img{:src => "images/ic-fac2.png"}/
+                International and
+                %br local tech buidling
+              %li
+                %img{:src => "images/ic-fac3.png"}/
+                Free and
+                %br Open Source
+              %li
+                %img{:src => "images/ic-fac4.png"}/
+                Interoperable
+              %li
+                %img{:src => "images/ic-fac5.png"}/
+                Get Updates
+                %br on Facilities
+              %li
+                %img{:src => "images/ic-fac6.png"}/
+                Privacy Settings
+                %br and Permissions
+
+        #developer
+          .what-are-we-doing
+            %h1 What are we doing
+            %ul
+              %li
+                %img{:src => "images/ic-ww1.png"}/
+                Support local champions doing real-world implementations
+              %li
+                %img{:src => "images/ic-ww2.png"}/
+                Evolve the Free and Open-Source reference Facility Registry
+              %li
+                %img{:src => "images/ic-ww3.png"}/
+                Design Open API specs with the world’s leading eHealth & mHealth providers
+              %li
+                %img{:src => "images/ic-ww4.png"}/
+                Show simpler datasharing and interoperability
+          .why-are-we-doing-this
+            %h1 Why are we doing this
+            %p As technology providers, we are collaborating to make facility data easier to manage and making sure our tools and services can share facility data in a simpler, more manageable, secure and scalable way.
+          .whos-participating
+            %h1 Who's participating
+            %img{:src => "images/participating-logos.png"}/
+          .community-grid
+            %h1 Community
+            %ul
+              %li
+                %img{:src => "images/ic-com1.png"}/
+                %p
+                  %b Join the discussion group
+                  and ask questions and get feedback
+              %li
+                %img{:src => "images/ic-com2.png"}/
+                %p
+                  %b See the latest API
+                  specifications and application code
+              %li
+                %img{:src => "images/ic-com3.png"}/
+                %p
+                  %b Discuss your ideas and proposals
+                  in recurring Google Hangout
+              %li
+                %img{:src => "images/ic-com4.png"}/
+                %p
+                  %b Submit your questions,
+                  issues and comments
+        .getstarted
+          %h1 Get started today
+          %a{:href => "mailto:facility-registry@googlegroups.com"}
+            %img{:src => "images/ic-envelope.png"}/
+            Contact us
+          %a{:href => "http://resourcemap.instedd.org", :target => "_blank"}
+            %img{:src => "images/ic-cog.png"}/
+            Try the reference implementation
+          %a{:href => "https://wiki.ohie.org/display/SUB/Facility+Registry+Community", :target => "_blank"}
+            %img{:src => "images/ic-people.png"}/
+            Connect with our community
+        .latestactivity
+          %h1 Latest activity
+          .post
+            %h3 FRED API and CHP framework documents (1)
+            %p.author By Kelly Keisling (NH) . May 10
+            %p Hello facility registry community,
+            %p
+              Thanks for the continued progress and collaboration on the facility registry API. To support the broader use of the API, NetHope is sharing two documents below...
+              %a{:href => "#"} More
+          .post
+            %h3 OHIE FR: Updates (4)
+            %p.author By Scott Teesdale 4 posts 5 views . May 8
+            %p Hello OHIE FR Community,
+            %p I wanted to share a few updates. Minutes and a Youtube recording of last week's technical call can be found here.
+          .post
+            %h3 OHIE FR - Technical Call Minutes and Recording (5/2/13) (1)
+            %p.author By Scott Teesdale 1 post 5 views . May 6
+            %p Agenda:
+            %p We outlined the areas of work that folks in the community mentioned as interesting for them in previous calls: Current Pending Topics:  (** Please bring up any others that you wish to add )
+            %p
+              We are creating github issues for each, to call for discussions from the group about the topics you find interesting...
+              %a{:href => "#"} More
+            %a.more{:href => "#"} More posts
+
